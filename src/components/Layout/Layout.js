@@ -15,6 +15,7 @@ class Layout extends Component {
   toggleSideBar=() =>{
     const sideBar = this.state.showSideDrawer;;
     this.setState({ showSideDrawer: !sideBar });
+    
   }
   render() {
     return (
